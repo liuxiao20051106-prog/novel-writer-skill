@@ -13,15 +13,15 @@
 
 选择你的平台，点击对应指南：
 
-| 平台 | 配置指南 | 难度 |
-|------|---------|------|
-| **Claude Code** | [platforms/claude-code.md](platforms/claude-code.md) | ⭐ 一键安装 |
-| **ChatGPT** | [platforms/chatgpt.md](platforms/chatgpt.md) | ⭐ Custom GPT |
-| **Cursor** | [platforms/cursor.md](platforms/cursor.md) | ⭐ 规则文件 |
-| **GitHub Copilot** | [platforms/copilot.md](platforms/copilot.md) | ⭐ 指令文件 |
-| **Gemini** | [platforms/gemini.md](platforms/gemini.md) | ⭐ Gems / API |
-| **DeepSeek** | [platforms/deepseek.md](platforms/deepseek.md) | ⭐ API / Web |
-| **其他平台** | [platforms/generic.md](platforms/generic.md) | ⭐ 通用方法 |
+| 平台 | 配置指南 | 安装方式 |
+|------|---------|---------|
+| **Claude Code** | [platforms/claude-code.md](platforms/claude-code.md) | 复制到 `~/.claude/skills/` |
+| **ChatGPT** | [platforms/chatgpt.md](platforms/chatgpt.md) | 创建 Custom GPT |
+| **Cursor** | [platforms/cursor.md](platforms/cursor.md) | 添加 `.cursorrules` |
+| **GitHub Copilot** | [platforms/copilot.md](platforms/copilot.md) | 添加 `copilot-instructions.md` |
+| **Gemini** | [platforms/gemini.md](platforms/gemini.md) | 创建 Gem / API |
+| **DeepSeek** | [platforms/deepseek.md](platforms/deepseek.md) | System Prompt / Web |
+| **其他平台** | [platforms/generic.md](platforms/generic.md) | 系统提示词粘贴 |
 
 核心文件就一个：**[SKILL.md](SKILL.md)**（中文版）或 [en/SKILL.md](en/SKILL.md)（English），把它加载到任意 AI 平台即可。
 
