@@ -118,8 +118,21 @@ novel-writer-skill/
 ├── en/                            # 英文版
 │   └── SKILL.md                   # English version of core skill
 │
-└── templates/                     # 写作模板
-    └── novel-project.md           # 小说项目追踪文件模板
+├── references/                    # 按需加载的专项指南
+│   ├── ai-collaboration.md        # AI 分工、提示方式与原创性
+│   ├── project-continuity.md      # 长篇连续性与版本管理
+│   ├── quality-review.md          # 分层审校与质量检查
+│   ├── research-and-fact-checking.md # 事实核查与来源
+│   ├── copyright-privacy-compliance.md # 版权、隐私与平台合规
+│   ├── sensitive-content.md       # 敏感内容处理
+│   └── publishing-checklist.md    # 发布、翻译与改编
+│
+└── templates/                     # 可直接复制的项目模板
+    ├── novel-project.md           # 小说项目总览
+    ├── chapter-brief.md           # 章节任务卡
+    ├── continuity-ledger.md       # 连续性台账
+    ├── source-log.md              # 来源记录
+    └── release-checklist.md       # 发布终检
 ```
 
 ---
@@ -162,7 +175,7 @@ See [en/SKILL.md](en/SKILL.md) for the English version of the complete skill ins
 
 ## 📊 Token 用量
 
-`SKILL.md` 约 4000-5000 tokens。如果平台上下文窗口较小（< 8K），建议精简后使用，或分阶段加载不同部分。
+核心方法保留在 `SKILL.md`，长篇管理、事实核查、版权隐私和发布检查等专项内容位于 `references/`，按任务需要加载，避免一次占用过多上下文。
 
 ---
 
