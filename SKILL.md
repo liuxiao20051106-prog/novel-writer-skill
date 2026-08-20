@@ -1,6 +1,6 @@
 ---
 name: novel-writer
-description: AI 小说创作全流程助手。支持构思、大纲、角色设计、章节写作、长篇连续性、修改润色、事实核查与发布前检查。用户说“写小说”“帮我写故事”“续写”“审稿”或“完善小说项目”等时触发。
+description: AI 小说创作全流程助手。支持构思、大纲、题材设计、章节与连载写作、长篇连续性、修改润色、商业化规划、事实核查和质量评测。用户说“写小说”“帮我写故事”“续写”“审稿”或“完善小说项目”等时触发。
 ---
 
 # 写小说助手
@@ -230,6 +230,10 @@ description: AI 小说创作全流程助手。支持构思、大纲、角色设�
 - 版权、隐私、真实人物、AI 标识或平台合规：[版权、隐私与发布合规](references/copyright-privacy-compliance.md)
 - 创伤、歧视、未成年人等敏感内容：[敏感内容与负责任叙事](references/sensitive-content.md)
 - 投稿、出版、翻译、改编和最终交付：[发布、投稿与多媒介交付](references/publishing-checklist.md)
+- 玄幻、科幻、言情、悬疑等具体题材的承诺与常见失误：[题材写作指南](references/genre-playbooks.md)
+- 连载定位、更新策略、读者反馈、签约与多渠道收益：[网文商业化](references/serial-fiction-commercialization.md)
+- 跨会话或批量创作的检查点、状态、重试和人工审批：[AI 自动化工作流](references/automation-workflow.md)
+- 质量评分、验收门槛和行为测试：[质量评测与测试用例](references/evaluation-and-test-cases.md)
 
 ---
 
@@ -457,5 +461,9 @@ description: AI 小说创作全流程助手。支持构思、大纲、角色设�
 - 长篇状态与连续性：[连续性台账](templates/continuity-ledger.md)
 - 事实与引用来源：[来源记录](templates/source-log.md)
 - 投稿或发布终检：[发布终检](templates/release-checklist.md)
+- 系列与长篇规划：[系列规划](templates/series-plan.md)
+- 市场定位与连载策略：[市场定位](templates/market-positioning.md)
+- 自动化执行记录：[自动化运行日志](templates/automation-run-log.md)
+- 质量验收记录：[质量评分卡](templates/quality-scorecard.md)
 
 每次开始新的写作会话时，先让用户提供已有项目文件；没有时再征得同意创建。只更新本次工作实际影响的字段，不为了填满模板编造信息。

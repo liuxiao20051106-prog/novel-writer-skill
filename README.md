@@ -17,6 +17,8 @@
 - 按章写作，确保章节之间衔接流畅、情感连贯
 - 写完自查（逻辑漏洞？角色降智？代入感够吗？）
 - 逐层修改润色（结构 → 语言 → 细节）
+- 按题材兑现读者承诺，并规划可持续连载与商业化路径
+- 用可回滚、有人工作者门禁的流程批量协作，并以测试用例验收
 
 ## 为什么需要它？
 
@@ -39,7 +41,10 @@
 | 🔗 **章节连贯性** | 内置写前检查流程：写每章之前必须回顾上一章结尾，确保时间线、场景、POV、情绪四个维度都接得上 |
 | 👁️ **代入感优先** | 五层代入体系：视角锁定 + 感官沉浸 + 情感共振 + 处境设计 + 常见错误规避，不是嘴上说「要有代入感」而是每一步都有检查点 |
 | 🌍 **全平台通用** | 一套方法论，适配 Claude Code / ChatGPT / Cursor / Copilot / Gemini / DeepSeek / Kimi / 豆包 / Ollama 等 10+ 平台，每个平台都有具体配置指南 |
-| 📋 **项目追踪模板** | 附带 `novel-project.md` 模板，追踪角色、关系网、伏笔、情感节奏——不是写完就忘，而是可持续的长篇创作 |
+| 🧭 **题材与连载策略** | 覆盖玄幻、科幻、言情、悬疑等主要题材，并提供读者定位、平台核对、合同与权利检查框架 |
+| 🤖 **可控 AI 工作流** | 用明确状态、人工审批、幂等重试和运行日志管理跨会话、批量章节与多人协作 |
+| ✅ **质量评测** | 用硬性门禁、证据式评分和行为测试检查连续性、原创性、事实与发布风险 |
+| 📋 **项目追踪模板** | 9 套中英文模板追踪角色、伏笔、来源、市场假设、自动化运行和发布验收 |
 
 ## 适合谁用？
 
@@ -64,7 +69,7 @@
 | **DeepSeek** | [platforms/deepseek.md](platforms/deepseek.md) | System Prompt / Web |
 | **其他平台** | [platforms/generic.md](platforms/generic.md) | 系统提示词粘贴 |
 
-核心文件就一个：**[SKILL.md](SKILL.md)**（中文版）或 [en/SKILL.md](en/SKILL.md)（English），把它加载到任意 AI 平台即可。
+入口文件是 **[SKILL.md](SKILL.md)**（中文版）或 [en/SKILL.md](en/SKILL.md)（English）；专项指南与模板会按任务需要加载。
 
 ---
 
@@ -73,7 +78,7 @@
 ### 完整创作流程
 
 ```
-构思 → 章节写作 → 修改润色
+构思 → 题材与定位 → 章节/连载写作 → 修改润色 → 质量验收 → 发布准备
 ```
 
 | 阶段 | 涵盖内容 |
@@ -115,8 +120,10 @@ novel-writer-skill/
 │   ├── deepseek.md                # DeepSeek API/Web
 │   └── generic.md                 # 通用配置（Kimi/豆包/Ollama...）
 │
-├── en/                            # 英文版
-│   └── SKILL.md                   # English version of core skill
+├── en/                            # 完整英文版
+│   ├── SKILL.md                   # English core skill
+│   ├── references/                # 11 份 English specialist guides
+│   └── templates/                 # 9 套 English project templates
 │
 ├── references/                    # 按需加载的专项指南
 │   ├── ai-collaboration.md        # AI 分工、提示方式与原创性
@@ -125,14 +132,22 @@ novel-writer-skill/
 │   ├── research-and-fact-checking.md # 事实核查与来源
 │   ├── copyright-privacy-compliance.md # 版权、隐私与平台合规
 │   ├── sensitive-content.md       # 敏感内容处理
-│   └── publishing-checklist.md    # 发布、翻译与改编
+│   ├── publishing-checklist.md    # 发布、翻译与改编
+│   ├── genre-playbooks.md         # 主要题材写作指南
+│   ├── serial-fiction-commercialization.md # 连载与商业化
+│   ├── automation-workflow.md     # AI 自动化工作流
+│   └── evaluation-and-test-cases.md # 质量评分与行为测试
 │
 └── templates/                     # 可直接复制的项目模板
     ├── novel-project.md           # 小说项目总览
     ├── chapter-brief.md           # 章节任务卡
     ├── continuity-ledger.md       # 连续性台账
     ├── source-log.md              # 来源记录
-    └── release-checklist.md       # 发布终检
+    ├── release-checklist.md       # 发布终检
+    ├── series-plan.md             # 系列与长篇规划
+    ├── market-positioning.md      # 市场定位与连载假设
+    ├── automation-run-log.md      # 自动化运行记录
+    └── quality-scorecard.md       # 质量评分卡
 ```
 
 ---
@@ -175,7 +190,7 @@ See [en/SKILL.md](en/SKILL.md) for the English version of the complete skill ins
 
 ## 📊 Token 用量
 
-核心方法保留在 `SKILL.md`，长篇管理、事实核查、版权隐私和发布检查等专项内容位于 `references/`，按任务需要加载，避免一次占用过多上下文。
+核心方法保留在 `SKILL.md`，题材、长篇管理、商业化、自动化、事实核查、合规和质量测试等专项内容位于 `references/`，按任务需要加载，避免一次占用过多上下文。`en/` 提供同等范围的英文入口、指南和模板。
 
 ---
 

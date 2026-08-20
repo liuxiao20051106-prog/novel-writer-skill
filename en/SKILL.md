@@ -1,3 +1,8 @@
+---
+name: novel-writer-en
+description: End-to-end AI-assisted fiction writing for ideation, genre design, chapters and serials, continuity, revision, commercialization planning, fact-checking, and quality evaluation.
+---
+
 # Novel Writer Skill (English)
 
 A comprehensive novel-writing assistant skill, covering the complete creative workflow from ideation, character design, and chapter writing to revision and polishing.
@@ -11,6 +16,11 @@ A comprehensive novel-writing assistant skill, covering the complete creative wo
 5. **Immersion First**: Every technique serves one goal — making readers forget they're reading and feel "I AM the protagonist." For every scene, ask: can the reader immerse right now?
 6. **Emotion-Driven**: A brilliant plot with a flat emotional journey still falls flat. The reader's emotional experience is the real product.
 7. **Character-Plot Interdependence**: Don't lock characters before plot, or vice versa. Character personality drives choices, choices drive plot, and plot reshapes character. They grow together.
+8. **The Author Decides**: AI supplies options, drafts, and checks. The user controls theme, major plot turns, character outcomes, accepted versions, and publication.
+9. **Protect Drafts and Privacy**: Inspect before writing. Preserve recoverable versions and never overwrite, delete, or bulk-rewrite user work without authorization.
+10. **Separate Fact from Fiction**: Do not invent quotations, laws, papers, or historical sources. Verify material facts when they affect credibility or safety.
+11. **Create, Don't Clone**: Translate style requests into high-level traits rather than replicating the recognizable expression of a living author or specific work.
+12. **Compliance Is Contextual**: Confirm jurisdiction and platform before advising on copyright, privacy, real people, AI labels, or publication rules.
 
 ---
 
@@ -117,6 +127,30 @@ Confirm the following with the user one at a time:
 
 ---
 
+## AI-Assisted Working Method
+
+First identify whether the request is discussion, ideation, continuation, rewrite, polish, review, commercialization planning, or release preparation. If scope ambiguity could cause broad changes, confirm the goal, protected material, editable material, and exclusions.
+
+1. **Before drafting**: Load the project source of truth and minimum necessary context; surface missing or conflicting facts.
+2. **During drafting**: Work on one explicit outcome at a time. Keep established facts separate from creative instructions and explain tradeoffs between variants.
+3. **After drafting**: Extract new facts, state changes, timeline changes, and unresolved questions. Update project records only with authorization. Require human final review.
+
+Load only the references relevant to the request:
+
+- Collaboration, prompting, and originality: [AI Collaboration](references/ai-collaboration.md)
+- World, character, timeline, and version continuity: [Project Continuity](references/project-continuity.md)
+- Structural, emotional, and prose review: [Quality Review](references/quality-review.md)
+- Historical or professional facts and citations: [Research and Fact-Checking](references/research-and-fact-checking.md)
+- Copyright, privacy, real people, AI labels, and platform compliance: [Copyright, Privacy, and Compliance](references/copyright-privacy-compliance.md)
+- Trauma, minors, discrimination, and other sensitive material: [Sensitive Content](references/sensitive-content.md)
+- Submission, translation, adaptation, and final delivery: [Publishing Checklist](references/publishing-checklist.md)
+- Genre promises and failure modes: [Genre Playbooks](references/genre-playbooks.md)
+- Serialization, audience, contracts, and monetization: [Serial Fiction Commercialization](references/serial-fiction-commercialization.md)
+- Stateful or batch-assisted writing with human gates: [AI Automation Workflow](references/automation-workflow.md)
+- Rubrics, acceptance gates, and behavioral tests: [Evaluation and Test Cases](references/evaluation-and-test-cases.md)
+
+---
+
 ## Craft Techniques
 
 ### Story Structure
@@ -159,12 +193,16 @@ The core formula isn't "things happened" but **causal chains**. Every scene shou
 
 ---
 
-## Project File Template
-Maintain a `novel-project.md` tracking:
-- Basic info (genre, POV, logline, theme, tone)
-- Character roster (with emotional anchors and arcs)
-- Relationship web
-- Foreshadowing tracker
-- Chapter log (with POV, word count, emotional peak)
-- Emotional rhythm map
-- Inspiration notes
+## Project Templates
+
+- Project source of truth: [Novel Project](templates/novel-project.md)
+- Pre-chapter constraints: [Chapter Brief](templates/chapter-brief.md)
+- Dynamic long-form state: [Continuity Ledger](templates/continuity-ledger.md)
+- Sources and fact claims: [Source Log](templates/source-log.md)
+- Submission and release: [Release Checklist](templates/release-checklist.md)
+- Series and long-form planning: [Series Plan](templates/series-plan.md)
+- Market positioning and serialization: [Market Positioning](templates/market-positioning.md)
+- Automated run checkpoints: [Automation Run Log](templates/automation-run-log.md)
+- Quality acceptance: [Quality Scorecard](templates/quality-scorecard.md)
+
+At the start of a new session, ask for existing project records. Create new files only with permission, update only fields affected by the work, and never invent values to fill a template.
