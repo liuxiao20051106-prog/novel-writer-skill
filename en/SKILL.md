@@ -243,15 +243,17 @@ Load only the references relevant to the request — never all at once:
 
 ## Craft Techniques (Deep Dive)
 
-The full methodology for the eight craft techniques now lives in `references/craft-*.md` — **load on demand, never all at once**. The table below is each technique's non-negotiable baseline (always in force while writing); when you hit the matching problem or need expanded detail and examples, read the linked file.
+The full methodology for the ten craft techniques now lives in `references/craft-*.md` — **load on demand, never all at once**. The table below is each technique's non-negotiable baseline (always in force while writing); when you hit the matching problem or need expanded detail and examples, read the linked file.
 
 | Technique | Non-negotiable baseline | Deep guide |
 |------|---------|---------|
 | Story structure | Plots are causal chains, not event piles; cut chapter ends at peak conflict or suspense | [Story Structure](references/craft-story-structure.md) |
+| Opening hooks | Protagonist, conflict, and a question within 300 words; a hook at every chapter end | [Opening Hooks](references/craft-opening-hooks.md) |
 | Character building | Five layers: archetype → external → trauma → contradiction → arc; separate want vs. need | [Character Building](references/craft-character.md) |
 | Scene design | A scene is conflict — fix or cut conflict-free scenes | [Scene Design](references/craft-scene-design.md) |
 | Dialogue | Resistance is the core; break the ping-pong rally | [Dialogue Writing](references/craft-dialogue.md) |
 | Pacing | Alternate tempo; climactic impact = suppression time × release intensity | [Pacing Control](references/craft-pacing.md) |
+| Suspense & foreshadowing | Never hand out all the information at once; log and pay off every hook | [Suspense & Foreshadowing](references/craft-suspense-foreshadowing.md) |
 | Prose & style | Concrete > abstract, verbs > adjectives, body before brain, white space | [Prose & Style](references/craft-prose-style.md) |
 | Immersion | Five layers: POV lock + sensory immersion + emotional resonance + situation design + breakers | [Immersion Design](references/craft-immersion.md) |
 | Chapter bridging | Openings follow endings naturally; line changes get clear POV markers and time anchors | [Chapter Bridging](references/craft-chapter-bridging.md) |
@@ -259,11 +261,12 @@ The full methodology for the eight craft techniques now lives in `references/cra
 **When to load**:
 
 - Planning or adjusting the outline, distributing climaxes → [Story Structure](references/craft-story-structure.md)
+- Planning or revising the opening; first three chapters don't retain readers → [Opening Hooks](references/craft-opening-hooks.md)
 - Designing new characters or revising arcs → [Character Building](references/craft-character.md)
 - Building or revising scenes, tuning scene length → [Scene Design](references/craft-scene-design.md)
 - Writing or revising dialogue scenes → [Dialogue Writing](references/craft-dialogue.md)
 - Chapters drag, rush, or the climax lands flat → [Pacing Control](references/craft-pacing.md) (often paired with Scene Design)
-- Setting the prose voice or polishing language → [Prose & Style](references/craft-prose-style.md)
+- Planning long arcs, planting or paying off hooks; suspense feels flat → [Suspense & Foreshadowing](references/craft-suspense-foreshadowing.md)
 - Self-checking or fixing immersion problems → [Immersion Design](references/craft-immersion.md)
 - Writing chapter openings/endings, POV switches, multi-thread changes → [Chapter Bridging](references/craft-chapter-bridging.md)
 

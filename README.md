@@ -88,17 +88,19 @@
 | **章节写作** | 写前检查（衔接上一章）→ 四段式单章结构 → 场景设计 → 对话写作 → 章首衔接 & 章尾勾连 → 写后自查 |
 | **修改润色** | 宏观编辑（结构/弧线/跨章通读）→ 微观编辑（语言/句式/对话）→ 细节打磨（代入感审查） |
 
-### 八大技法深度
+### 十大技法深度
 
 每项技法的「必守底线」常驻 SKILL.md，完整方法论按需加载：
 
 | 技法 | 核心内容 | 深度指南 |
 |------|---------|---------|
 | **故事结构** | 三幕因果链 · 高潮排布规律 · 次要情节设计 | [打开](references/craft-story-structure.md) |
+| **开篇钩子** | 黄金 300 字 · 黄金三章任务分配 · 四种章末钩子 · 开篇雷区 | [打开](references/craft-opening-hooks.md) |
 | **角色塑造** | 五层设计法（原型→外在→创伤→矛盾→弧线）·「想要 vs 需要」框架 | [打开](references/craft-character.md) |
 | **场景设计** | 场景即冲突 · 长度节奏控制 · 体裁配比（爽文 3:1 / 言情 2:2 / 悬疑 1:3） | [打开](references/craft-scene-design.md) |
 | **对话写作** | 六大目标 ·「阻力」核心原理 · 打破乒乓球问答 | [打开](references/craft-dialogue.md) |
 | **节奏控制** | 快慢交替机制 · 加速/减速手段 · 高潮「压制-释放」 | [打开](references/craft-pacing.md) |
+| **悬念伏笔** | 信息差三种用法 · 悬念三层次 · 伏笔四模式与三段式回收 · 公平性原则 | [打开](references/craft-suspense-foreshadowing.md) |
 | **文笔风格** | 五种风格定调 · 身体先于大脑 · 留白技巧 | [打开](references/craft-prose-style.md) |
 | **代入感** | 五层体系（视角锁定 + 感官沉浸 + 情感共振 + 处境设计 + 错误规避） | [打开](references/craft-immersion.md) |
 | **章节衔接** | 四种桥接方式（情绪/动作/悬念/时空）· 多线叙事连续性 | [打开](references/craft-chapter-bridging.md) |
@@ -128,15 +130,17 @@ novel-writer-skill/
 ├── en/                            # 完整英文版
 │   ├── README.md                  # English project overview
 │   ├── SKILL.md                   # English core skill
-│   ├── references/                # 19 份 English specialist guides（含 8 份技法深度）
+│   ├── references/                # 21 份 English specialist guides（含 10 份技法深度）
 │   └── templates/                 # 9 套 English project templates
 │
 ├── references/                    # 按需加载的专项指南
 │   ├── craft-story-structure.md   # 技法深度：故事结构
+│   ├── craft-opening-hooks.md     # 技法深度：开篇钩子（黄金三章）
 │   ├── craft-character.md         # 技法深度：角色塑造
 │   ├── craft-scene-design.md      # 技法深度：场景设计
 │   ├── craft-dialogue.md          # 技法深度：对话写作
 │   ├── craft-pacing.md            # 技法深度：节奏控制
+│   ├── craft-suspense-foreshadowing.md # 技法深度：悬念与伏笔
 │   ├── craft-prose-style.md       # 技法深度：文笔与风格
 │   ├── craft-immersion.md         # 技法深度：代入感设计
 │   ├── craft-chapter-bridging.md  # 技法深度：章节衔接

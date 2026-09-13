@@ -74,17 +74,19 @@ The entry file is [SKILL.md](SKILL.md) (English) or [../SKILL.md](../SKILL.md) (
 
 ---
 
-## ✨ The eight craft techniques
+## ✨ The ten craft techniques
 
 Each technique keeps its non-negotiable baseline in SKILL.md; the full methodology loads on demand:
 
 | Technique | Core content | Deep guide |
 |------|---------|---------|
 | **Story structure** | Three-act causal chains · climax distribution · subplots | [Open](references/craft-story-structure.md) |
+| **Opening hooks** | The golden 300 words · first-three-chapter task split · four hook types · opening killers | [Open](references/craft-opening-hooks.md) |
 | **Character building** | Five-layer design · want vs. need framework | [Open](references/craft-character.md) |
 | **Scene design** | Scene = conflict · length and rhythm · genre pace ratios | [Open](references/craft-scene-design.md) |
 | **Dialogue** | Six goals · resistance as the core · break the ping-pong rally | [Open](references/craft-dialogue.md) |
 | **Pacing** | Alternate tempo · accelerate/decelerate · suppression-release | [Open](references/craft-pacing.md) |
+| **Suspense & foreshadowing** | Three information asymmetries · three suspense layers · four planting patterns and the three-stage payoff · fair play | [Open](references/craft-suspense-foreshadowing.md) |
 | **Prose & style** | Five style registers · body before brain · white space | [Open](references/craft-prose-style.md) |
 | **Immersion** | Five-layer system (POV lock + sensory + resonance + situation + breakers) | [Open](references/craft-immersion.md) |
 | **Chapter bridging** | Four bridging patterns · multi-thread continuity | [Open](references/craft-chapter-bridging.md) |
@@ -106,11 +108,11 @@ novel-writer-skill/
 ├── en/                            # Full English version
 │   ├── README.md                  # English project overview (this file)
 │   ├── SKILL.md                   # English core skill
-│   ├── references/                # 19 English specialist guides (incl. 8 craft deep dives)
+│   ├── references/                # 21 English specialist guides (incl. 10 craft deep dives)
 │   └── templates/                 # 9 English project templates
 │
 ├── references/                    # On-demand specialist guides (Chinese)
-│   ├── craft-*.md                 # 8 craft deep dives
+│   ├── craft-*.md                 # 10 craft deep dives
 │   └── *.md                       # 11 workflow/compliance guides
 │
 └── templates/                     # Copy-ready project templates (Chinese)

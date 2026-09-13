@@ -243,15 +243,17 @@ description: AI 小说创作全流程助手。支持构思、大纲、题材设�
 
 ## 技法深度篇
 
-八大技法的完整方法论已拆分至 `references/craft-*.md`，**按需加载，不要一次读全部**。下表是每项技法的必守底线（写作时始终生效）；遇到对应问题或需要展开细节、示例时，再读取对应文件。
+十大技法的完整方法论已拆分至 `references/craft-*.md`，**按需加载，不要一次读全部**。下表是每项技法的必守底线（写作时始终生效）；遇到对应问题或需要展开细节、示例时，再读取对应文件。
 
 | 技法 | 必守底线 | 深度指南 |
 |------|---------|---------|
 | 故事结构 | 情节是因果连锁，不是事件堆砌；章末卡在冲突高点或悬念处 | [故事结构](references/craft-story-structure.md) |
+| 开篇钩子 | 前 300 字见主角、见冲突、见悬念；章末留钩 | [开篇钩子（黄金三章）](references/craft-opening-hooks.md) |
 | 角色塑造 | 五层设计：原型→外在→创伤→矛盾→弧线；分清「想要 vs 需要」 | [角色塑造](references/craft-character.md) |
 | 场景设计 | 场景即冲突——无冲突的场景要么改要么删 | [场景设计](references/craft-scene-design.md) |
 | 对话写作 | 对话的核心是「阻力」；打破乒乓球式问答 | [对话写作](references/craft-dialogue.md) |
 | 节奏控制 | 快慢交替；高潮冲击力 = 压制时间 × 释放强度 | [节奏控制](references/craft-pacing.md) |
+| 悬念伏笔 | 不把信息一次性给全；挖坑必登记、必回收 | [悬念与伏笔](references/craft-suspense-foreshadowing.md) |
 | 文笔风格 | 具体 > 抽象，动词 > 形容词，身体先于大脑，留白 | [文笔与风格](references/craft-prose-style.md) |
 | 代入感 | 五层体系：视角锁定+感官沉浸+情感共振+处境设计+错误规避 | [代入感设计](references/craft-immersion.md) |
 | 章节衔接 | 章首自然顺承章尾；多线换线给明确 POV 标识与时间锚点 | [章节衔接](references/craft-chapter-bridging.md) |
@@ -259,11 +261,12 @@ description: AI 小说创作全流程助手。支持构思、大纲、题材设�
 **加载时机**：
 
 - 规划/调整大纲、排布高潮 → [故事结构](references/craft-story-structure.md)
+- 构思或修改开头、前三章留不住人 → [开篇钩子](references/craft-opening-hooks.md)
 - 设计新角色或修改角色弧线 → [角色塑造](references/craft-character.md)
 - 搭建或修改场景、调整场景长度 → [场景设计](references/craft-scene-design.md)
 - 写或改对话戏 → [对话写作](references/craft-dialogue.md)
 - 章节拖沓、一路赶戏或高潮无力 → [节奏控制](references/craft-pacing.md)（常与场景设计连用）
-- 定文风或润色语言 → [文笔与风格](references/craft-prose-style.md)
+- 规划长线剧情、埋设或回收伏笔、悬念疲软 → [悬念与伏笔](references/craft-suspense-foreshadowing.md)
 - 自查或修复「读者出戏」问题 → [代入感设计](references/craft-immersion.md)
 - 写章首章尾、POV 切换或多线换线 → [章节衔接](references/craft-chapter-bridging.md)
 
