@@ -125,10 +125,18 @@ novel-writer-skill/
 │
 ├── en/                            # 完整英文版
 │   ├── SKILL.md                   # English core skill
-│   ├── references/                # 11 份 English specialist guides
+│   ├── references/                # 19 份 English specialist guides（含 8 份技法深度）
 │   └── templates/                 # 9 套 English project templates
 │
 ├── references/                    # 按需加载的专项指南
+│   ├── craft-story-structure.md   # 技法深度：故事结构
+│   ├── craft-character.md         # 技法深度：角色塑造
+│   ├── craft-scene-design.md      # 技法深度：场景设计
+│   ├── craft-dialogue.md          # 技法深度：对话写作
+│   ├── craft-pacing.md            # 技法深度：节奏控制
+│   ├── craft-prose-style.md       # 技法深度：文笔与风格
+│   ├── craft-immersion.md         # 技法深度：代入感设计
+│   ├── craft-chapter-bridging.md  # 技法深度：章节衔接
 │   ├── ai-collaboration.md        # AI 分工、提示方式与原创性
 │   ├── project-continuity.md      # 长篇连续性与版本管理
 │   ├── quality-review.md          # 分层审校与质量检查
@@ -193,7 +201,7 @@ See [en/SKILL.md](en/SKILL.md) for the English version of the complete skill ins
 
 ## 📊 Token 用量
 
-核心方法保留在 `SKILL.md`，题材、长篇管理、商业化、自动化、事实核查、合规和质量测试等专项内容位于 `references/`，按任务需要加载，避免一次占用过多上下文。`en/` 提供同等范围的英文入口、指南和模板。
+核心方法与八大技法的「必守底线」保留在 `SKILL.md`；八大技法的完整展开（`references/craft-*.md`）与题材、长篇管理、商业化、自动化、事实核查、合规、质量测试等专项内容位于 `references/`，按任务需要加载，避免一次占用过多上下文。`en/` 提供同等范围的英文入口、指南和模板。
 
 ---
 

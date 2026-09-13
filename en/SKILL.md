@@ -239,209 +239,29 @@ Load only the references relevant to the request — never all at once:
 
 ## Craft Techniques (Deep Dive)
 
-### 1. Story Structure
+The full methodology for the eight craft techniques now lives in `references/craft-*.md` — **load on demand, never all at once**. The table below is each technique's non-negotiable baseline (always in force while writing); when you hit the matching problem or need expanded detail and examples, read the linked file.
 
-**The core logic of the three-act structure**
-The underlying formula is not "things happened" but **causal chains**. E.M. Forster's classic distinction: "The king died, and then the queen died" is a chronicle; "The king died, and then the queen died of grief" is a plot.
+| Technique | Non-negotiable baseline | Deep guide |
+|------|---------|---------|
+| Story structure | Plots are causal chains, not event piles; cut chapter ends at peak conflict or suspense | [Story Structure](references/craft-story-structure.md) |
+| Character building | Five layers: archetype → external → trauma → contradiction → arc; separate want vs. need | [Character Building](references/craft-character.md) |
+| Scene design | A scene is conflict — fix or cut conflict-free scenes | [Scene Design](references/craft-scene-design.md) |
+| Dialogue | Resistance is the core; break the ping-pong rally | [Dialogue Writing](references/craft-dialogue.md) |
+| Pacing | Alternate tempo; climactic impact = suppression time × release intensity | [Pacing Control](references/craft-pacing.md) |
+| Prose & style | Concrete > abstract, verbs > adjectives, body before brain, white space | [Prose & Style](references/craft-prose-style.md) |
+| Immersion | Five layers: POV lock + sensory immersion + emotional resonance + situation design + breakers | [Immersion Design](references/craft-immersion.md) |
+| Chapter bridging | Openings follow endings naturally; line changes get clear POV markers and time anchors | [Chapter Bridging](references/craft-chapter-bridging.md) |
 
-What drives each act:
-- **Act 1**: The inciting incident breaks the routine. The protagonist is forced out of their comfort zone — not because they want to go, but because not going is impossible.
-- **Act 2**: Escalating conflict plus deepening predicament. The midpoint needs a "point of no return" — past it, the protagonist can only move forward. Act 2 is also where the character arc happens: every failure changes them.
-- **Act 3**: The protagonist must make the final choice actively — not rescued, not saved by coincidence, but by themselves (changed by everything the first two acts did to them). The ending answers not "what happened" but "who the protagonist became."
+**When to load**:
 
-**Climax distribution**
-- Mini-climax every 3-5 chapters (a small win/loss, discovery, or turn)
-- Medium climax every 15-20 chapters (an important success or failure that changes the story's direction)
-- Major climax at the midpoint (the "point of no return")
-- Ultimate climax at the ending (final confrontation/choice)
-
-Always cut chapter ends at peak conflict or suspense.
-
-**Subplots**
-- Subplots exist not to pad word count but to:
-  - Explore the theme from different angles
-  - Show different facets of the protagonist across different relationships
-  - Provide breathing room when the main plot is tense, and tension when it relaxes
-- Every subplot must eventually connect to the main line — either influencing the protagonist's choices or thematically contrasting with the main plot
-
----
-
-### 2. Character Building
-
-**Five layers of character design (shallow to deep)**
-
-1. **Archetype**: What type of person? (Not simple "good/bad" — more specific: idealist / cynic / survivor / guardian / seeker...)
-2. **External traits + internal desire**: Appearance, habitual mannerisms, what they truly want
-3. **Trauma & defense mechanisms**: What hurt them? How do they protect themselves? (Coldness / people-pleasing / control / avoidance / aggression...) Defense mechanisms are the source of character flaws.
-4. **Contradictions**: Give characters conflicting traits — a cold-blooded killer keeps a cat; a gentle mother tells her child a monstrous lie. Contradictions turn "types" into "people."
-5. **Destiny arc**: Change through tribulation — not "becoming stronger" but "re-understanding oneself"
-
-**Want vs. Need**
-- **WANT (surface goal)**: What the character believes they're after — "I want revenge" / "I want riches" / "I want their love"
-- **NEED (deep growth)**: What the character truly needs but doesn't know — "I need to let go of hate to start over" / "I need to learn to trust"
-- The best endings: the protagonist gets what they NEED at the cost of what they WANT (or gets what they wanted and discovers it wasn't what they needed)
-
-**Supporting-character principles**
-- Every supporting character should mirror or contrast some aspect of the protagonist
-- "Supporting characters have brains" — with a smart opponent, every victory has weight
-- Give each supporting character their own want and need — even unwritten, the author should know them
-
-**Seven methods of characterization**
-1. Through **action** (small gestures like the hands; big ones like pivotal choices)
-2. Through **dialogue** (lines that fit identity and personality)
-3. Through **contrast** (character vs. character; the same character across situations)
-4. Through **shifting status** (how their power position changes in social scenes)
-5. Through **dreams** (what they long for, what they fear)
-6. Through **flaws** (imperfections and quirks make flesh and blood)
-7. Through **others' eyes** (how other characters see them) — never let the narrator directly evaluate a character; let other characters do it
-
----
-
-### 3. Scene Design
-
-**What a scene is**
-A scene is not "a place where things happen." A scene is **the minimal unit of conflict**. If a scene has no conflict (external / interpersonal / internal), either fix it or cut it.
-
-**Scene structure**
-Every scene should have:
-- **Entry**: Quickly establish space and POV with sensory detail
-- **Conflict unfolds**: What does the character want? What's in the way?
-- **Turn**: By scene's end, the situation has changed (even slightly) — closer to or further from the goal? New information? A changed view of someone?
-- **Exit**: End the scene on "consequences," not on "the task is done." The reader should want to know what happens next.
-
-**Scene length and pacing**
-- Short scenes (a few hundred words): fast progress, tension — action, pursuit, sudden conflict
-- Long scenes (thousands of words): immersive development — emotional set pieces, complex dialogue, pivotal decisions
-- Key principle: **deliberate variation** — never let all scenes run the same length. After a tense scene, give a slightly longer breathing scene, and vice versa
-
-**Pace ratios by genre**
-
-| Genre | Recommended ratio (fast:slow) | Notes |
-|------|------|------|
-| **Power fantasy / hot-blooded** | 3:1 | Dense conflict delivers on the promise; occasional breathers |
-| **Romance** | 2:2 | Emotional push-and-pull needs room; alternation builds tension |
-| **Mystery** | 1:3 | Slow pace builds atmosphere; fast pace reserved for key reveals |
-| **Drama / literary** | 1:1 | Balanced tension and release |
-
----
-
-### 4. Dialogue Writing
-
-**Six goals of dialogue**
-Good dialogue achieves at least one:
-1. **Advance the plot** — the dialogue itself is action
-2. **Reveal character** — readers learn who someone is by how they speak
-3. **Convey information** — but it must flow naturally from the character's mouth, not be read at the reader
-4. **Create conflict** — "resistance" between characters
-5. **Control pacing** — dialogue speeds up or slows down the read
-6. **Add realism** — but "real" is not "transcribed." Real speech is full of "um," "ah," "then" — cut them.
-
-**The core of dialogue: resistance**
-Good dialogue is not smooth information transfer but transfer that meets resistance:
-- Character A wants to ask; character B won't tell
-- Character A wants to hide something; character B keeps probing
-- Two characters discussing "the same thing" that means entirely different things to each
-
-Breaking the ping-pong rally:
-- Let characters **refuse to answer** — silence, topic changes, counter-questions
-- Let characters say what they **don't mean** — "I'm fine" while their hands betray them
-- Let dialogue be **interrupted by external events**
-
-**Technical points**
-- The best dialogue needs no "he said" — the voice alone identifies the speaker
-- Pair dialogue with action — characters talking while doing something beats sitting down for "pure chat"
-- Read dialogue aloud — if it doesn't flow, rewrite it
-- No "information dumps" through dialogue — "As you know, our world has seven kingdoms, and three thousand years ago..." — nobody talks like this
-
----
-
-### 5. Pacing Control
-
-**Alternating tempo**
-Whatever the genre, sustained intensity only numbs the reader. Pacing must breathe.
-
-**The levers**
-- **Accelerate**: trim filler, more short sentences, chain actions tightly, shorten scenes, cut internal monologue
-- **Decelerate**: add psychology, atmosphere, multi-POV friction, lengthen scenes, add bodily detail
-- **Rhythm-break warning**: after a major conflict, never jump straight into routine (the reader is still digesting) — insert a transition, even just a paragraph or two, to absorb the emotional afterglow
-
-**Suppression before the climax**
-Climactic impact = suppression time × release intensity. Before the climax scene, "press down" first — let the protagonist fail, let the situation worsen, let the reader fret for them. The longer the press, the stronger the release.
-
----
-
-### 6. Prose & Style
-
-**Setting the style (decide before writing, lock in the first three chapters)**
-
-| Style | Diction | Sentence strategy |
-|----------|----------|----------|
-| **Classical / period** | Refined and economical, archaic-tinged vocabulary | Mixed lengths; avoid modern colloquialisms |
-| **Contemporary romance** | Direct, delicate, slice-of-life | Emphasis on psychology and environment |
-| **Suspense** | Cold and restrained, generous white space | Mostly short sentences for tension |
-| **Power fantasy** | Brisk and assertive, direct emotion | Short sentences, parallelism |
-| **Healing / cozy** | Gentle and unhurried | Focus on warm small details |
-
-**Keep the style unified**: lock the prose voice in the first three chapters, then look back at them repeatedly as the benchmark. Diction, sentence patterns, and POV must all stay consistent.
-
-**Specific techniques**
-- **Concrete > abstract**: write behavior, not emotion labels
-- **Verbs > adjectives**: precise verbs give prose force
-- **Body before brain**: write the physiological reaction first (racing heart, sweating palms), the conscious recognition second ("he realized he was afraid")
-- **Mixed sentence lengths**: short sentences dominate action; long and short interleave in lyrical passages
-- **White space**: don't spell out the character's feelings. Let readers fill in with their own emotional experience — "He didn't cry. He just stood at the door a long time, and finally turned off the light."
-
----
-
-### 7. Immersion Design
-
-Immersion isn't achieved by one trick — multiple layers work simultaneously:
-
-**1. POV lock — let the reader live in the protagonist's head**
-- Prefer third-person limited (following one character): readers perceive only what the POV character perceives
-- First person suits stories needing a strong personal voice, at the cost of multi-thread flexibility
-- **Never switch POV within a scene.** POV changes only at scene/chapter boundaries.
-- **POV selection principle**: whoever is present with the deepest emotional stake gets the viewpoint
-
-**2. Sensory immersion — put the reader on the scene**
-- At least three senses per important scene
-- **Body before brain**: physiology first, interpretation second
-- **Spatial anchoring**: one or two sentences at scene start to place the reader in the space
-
-**3. Emotional resonance — make the reader's heart beat with the character's**
-- Replace abstract emotion with concrete behavior
-- **"Ordinary-person moments"**: insert small, plain, true beats into grand plots — the hero's hands shaking as he ties his shoes before the final battle; the cold killer slowing down past a flower shop. These moments turn paper figures into living people.
-- Build the routine first, then break it; make the reader love a person or thing first, then threaten it
-
-**4. Situation design — make immersion easy**
-- Start low: the closer the initial circumstances to an ordinary reader's emotional experience, the easier the immersion
-- Make choices hard: readers immerse in the agonizing process of choosing, not the brilliance of the result
-- Make costs real: mistakes have consequences, injuries leave marks, what's lost doesn't come back easily
-
-**5. Common immersion breakers**
-- ❌ Authorial explanation (narrator-voice worldbuilding) → expose it through character POV instead
-- ❌ Emotion labels (telling the reader the emotion) → show through behavior and physical reaction
-- ❌ Authorial foreshadowing ("He didn't know this decision would change his life forever") → let the reader experience it in sync with the character
-- ❌ Character derailment (dumbing characters down to move the plot)
-- ❌ Excessive coincidence (once is fine; consecutive coincidences are authorial laziness)
-- ❌ Endless internal monologue (long unbroken blocks → distribute the thinking into action and dialogue)
-
----
-
-### 8. Chapter Bridging
-
-Readers should "finish one chapter after another without noticing" — not re-adapt at every chapter opening.
-
-**Common bridging failures**
-- ❌ **Recap bridging**: this chapter opens by re-narrating the last → trust the reader's memory; at most a one-line reminder woven in
-- ❌ **Zero bridging**: last chapter ends with a passionate confession in scene A, this opens with a calm meal in scene B → even one transition line helps the reader keep up
-- ❌ **Emotional cliff**: last chapter's heavy farewell, this chapter's cheerful routine → the tonal shift can work, but only with time-skips acknowledged
-- ❌ **Vague timeline**: the reader is three paragraphs in still guessing "when is this?" → anchor the time as early as possible
-
-**Multi-thread narratives, especially**
-- Keep each thread's chapters internally continuous (readers wait a long time between Thread A ch.3 and ch.4 — the bridging must be extra clear)
-- When switching threads, give a clear POV marker and time anchor
-- Keep inter-thread time relations always clear (is Thread B "three days before" Thread A, or simultaneous?)
+- Planning or adjusting the outline, distributing climaxes → [Story Structure](references/craft-story-structure.md)
+- Designing new characters or revising arcs → [Character Building](references/craft-character.md)
+- Building or revising scenes, tuning scene length → [Scene Design](references/craft-scene-design.md)
+- Writing or revising dialogue scenes → [Dialogue Writing](references/craft-dialogue.md)
+- Chapters drag, rush, or the climax lands flat → [Pacing Control](references/craft-pacing.md) (often paired with Scene Design)
+- Setting the prose voice or polishing language → [Prose & Style](references/craft-prose-style.md)
+- Self-checking or fixing immersion problems → [Immersion Design](references/craft-immersion.md)
+- Writing chapter openings/endings, POV switches, multi-thread changes → [Chapter Bridging](references/craft-chapter-bridging.md)
 
 ---
 
