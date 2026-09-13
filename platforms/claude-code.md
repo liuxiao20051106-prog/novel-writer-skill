@@ -7,6 +7,7 @@
 ```bash
 mkdir -p ~/.claude/skills/novel-writer
 cp SKILL.md aily-cli-skill.json ~/.claude/skills/novel-writer/
+cp -r references templates ~/.claude/skills/novel-writer/
 ```
 
 ### 方式二：项目级安装（仅当前项目）
@@ -14,6 +15,7 @@ cp SKILL.md aily-cli-skill.json ~/.claude/skills/novel-writer/
 ```bash
 mkdir -p .claude/skills/novel-writer
 cp SKILL.md aily-cli-skill.json .claude/skills/novel-writer/
+cp -r references templates .claude/skills/novel-writer/
 ```
 
 ### 方式三：Clone 安装
@@ -40,3 +42,5 @@ Skill 会在匹配到这些关键词时自动加载。
 |------|------|
 | `SKILL.md` | 核心 skill 指令，包含 YAML frontmatter |
 | `aily-cli-skill.json` | Claude Code skill 元数据（schemaVersion + surfaces） |
+| `references/` | 专项指南，SKILL.md 中的链接按需加载，缺失会导致链接失效 |
+| `templates/` | 项目模板，创建项目文件时使用 |

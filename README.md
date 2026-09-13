@@ -1,9 +1,9 @@
 # 📖 Novel Writer Skill — 全平台 AI 写小说助手
 
-一套完整的小说写作方法论，可适配 **Claude Code、ChatGPT、Cursor、GitHub Copilot、Gemini、DeepSeek、Kimi、豆包、通义千问、Ollama** 等主流 AI 平台。
+一套完整的小说写作方法论，可适配 **Claude Code、ZCode、ChatGPT、Cursor、GitHub Copilot、Gemini、DeepSeek、Kimi、豆包、通义千问、Ollama** 等主流 AI 平台。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Platforms](https://img.shields.io/badge/Platforms-7+-blue)](platforms/)
+[![Platforms](https://img.shields.io/badge/Platforms-8+-blue)](platforms/)
 [![中文](https://img.shields.io/badge/语言-中文-red)](SKILL.md)
 [![English](https://img.shields.io/badge/Lang-English-blue)](en/SKILL.md)
 
@@ -67,6 +67,7 @@
 | **GitHub Copilot** | [platforms/copilot.md](platforms/copilot.md) | 添加 `copilot-instructions.md` |
 | **Gemini** | [platforms/gemini.md](platforms/gemini.md) | 创建 Gem / API |
 | **DeepSeek** | [platforms/deepseek.md](platforms/deepseek.md) | System Prompt / Web |
+| **ZCode** | [platforms/zcode.md](platforms/zcode.md) | `~/.agents/skills/` 或项目 `.zcode/skills/` |
 | **其他平台** | [platforms/generic.md](platforms/generic.md) | 系统提示词粘贴 |
 
 入口文件是 **[SKILL.md](SKILL.md)**（中文版）或 [en/SKILL.md](en/SKILL.md)（English）；专项指南与模板会按任务需要加载。
@@ -107,12 +108,14 @@
 ```
 novel-writer-skill/
 ├── README.md                      # 项目总览（你正在看的）
+├── CHANGELOG.md                   # 更新日志
 ├── SKILL.md                       # 核心 skill 文件（中文）
 ├── aily-cli-skill.json            # Claude Code 元数据
 ├── LICENSE                        # MIT 许可
 │
 ├── platforms/                     # 各平台配置指南
 │   ├── claude-code.md             # Claude Code 安装说明
+│   ├── zcode.md                   # ZCode 安装说明（原生 skill 发现）
 │   ├── chatgpt.md                 # ChatGPT Custom GPT 配置
 │   ├── cursor.md                  # Cursor Rules 配置
 │   ├── copilot.md                 # GitHub Copilot 指令
