@@ -2,6 +2,8 @@
 
 Load this guide after the author has selected a genre, is comparing genres, or needs to test whether the genre promise is delivered. Genre is not a fixed formula. Confirm audience, medium, length, and genre blend first.
 
+> How genre pace ratios (power fantasy 3:1, romance 2:2, mystery 1:3, etc.) land at scene level is in [Scene Design](craft-scene-design.md); how a genre pairs with climax distribution is in [Story Structure](craft-story-structure.md).
+
 ## A shared design method
 
 For each genre, define five things: reader promise, central question, unit of escalation, required evidence, and common failure. For a blend, name the primary promise and the supporting promise; when they compete for space, the primary promise controls structure.

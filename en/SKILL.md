@@ -175,6 +175,8 @@ This is the fundamental line between amateur and professional writing.
   - If the POV switches, can the reader recognize the new POV character immediately?
   - Can this chapter's ending connect to the next chapter's opening?
 
+> When the self-check finds problems, load the matching craft guide per the "Craft Techniques" load triggers (pacing → Pacing Control; falling out of the story → Immersion Design; weak dialogue → Dialogue Writing; broken bridging → Chapter Bridging).
+
 ---
 
 ### Phase 3: Revision & Polishing
@@ -193,6 +195,8 @@ This is the fundamental line between amateur and professional writing.
   - Do emotional rhythms rise and fall with reasonable transitions between chapters?
   - If one chapter ends on a climax and the next opens flat, is there a bridging beat in between?
   - In multi-thread narratives, are the time relations between threads always clear?
+
+> Fixes by issue: structure → [Story Structure](references/craft-story-structure.md); pacing → [Pacing Control](references/craft-pacing.md); bridging → [Chapter Bridging](references/craft-chapter-bridging.md).
 
 **2. Micro Editing (Language & Scene)**
 - Cut redundancy: if one sentence says it, use one sentence

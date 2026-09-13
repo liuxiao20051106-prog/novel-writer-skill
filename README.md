@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platforms](https://img.shields.io/badge/Platforms-8+-blue)](platforms/)
 [![中文](https://img.shields.io/badge/语言-中文-red)](SKILL.md)
-[![English](https://img.shields.io/badge/Lang-English-blue)](en/SKILL.md)
+[![English](https://img.shields.io/badge/Lang-English-blue)](en/README.md)
 
 ---
 
@@ -126,6 +126,7 @@ novel-writer-skill/
 │   └── generic.md                 # 通用配置（Kimi/豆包/Ollama...）
 │
 ├── en/                            # 完整英文版
+│   ├── README.md                  # English project overview
 │   ├── SKILL.md                   # English core skill
 │   ├── references/                # 19 份 English specialist guides（含 8 份技法深度）
 │   └── templates/                 # 9 套 English project templates
@@ -187,7 +188,9 @@ git clone https://github.com/liuxiao20051106-prog/novel-writer-skill.git
 
 ## 🌐 英文版 / English Version
 
-See [en/SKILL.md](en/SKILL.md) for the English version of the complete skill instructions.
+英文版项目总览见 [en/README.md](en/README.md)；完整英文 skill 指令见 [en/SKILL.md](en/SKILL.md)。
+
+For the English version of the complete skill instructions, see [en/SKILL.md](en/SKILL.md).
 
 ---
 

@@ -2,6 +2,8 @@
 
 Use this guide after a scene, chapter, arc, or manuscript exists. Review from high-impact issues to surface polish so prose work is not wasted on material that will be cut.
 
+> When review finds a concrete problem, load the matching craft guide per the SKILL.md "Craft Techniques" index: dragging → [Pacing Control](craft-pacing.md); falling out of the story → [Immersion Design](craft-immersion.md); weak dialogue → [Dialogue Writing](craft-dialogue.md); broken bridging → [Chapter Bridging](craft-chapter-bridging.md).
+
 ## Review order
 
 ### 1. Promise and structure
