@@ -2,6 +2,8 @@
 
 Read only when self-checking or fixing "the reader falls out of the story," or when designing high-immersion key scenes. The core baseline (the five-layer system: POV lock + sensory immersion + emotional resonance + situation design + avoiding the breakers) lives in SKILL.md; this is the full expansion.
 
+> Related guides: the language-level fix for "emotion labels → concrete behavior" is in [Prose & Style](craft-prose-style.md); POV boundaries and multi-thread line-change rules are in [Chapter Bridging](craft-chapter-bridging.md).
+
 Immersion isn't achieved by one trick — multiple layers work simultaneously:
 
 ## 1. POV lock — let the reader live in the protagonist's head

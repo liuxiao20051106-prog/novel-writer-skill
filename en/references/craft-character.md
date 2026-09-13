@@ -2,6 +2,8 @@
 
 Read only when designing new characters, revising character arcs, or diagnosing "flat characters," "vague motivation," or "tool-like side characters." The core baseline (five-layer design; the want vs. need frame) lives in SKILL.md; this is the full expansion.
 
+> Related guides: how the arc interlocks with the three-act structure is in [Story Structure](craft-story-structure.md); landing "lines that fit identity" and "others' eyes" through dialogue is in [Dialogue Writing](craft-dialogue.md).
+
 ## Five layers of character design (shallow to deep)
 
 1. **Archetype**: What type of person? (Not simple "good/bad" — more specific: idealist / cynic / survivor / guardian / seeker...)

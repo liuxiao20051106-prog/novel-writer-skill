@@ -2,6 +2,8 @@
 
 Read only when diagnosing "chapters drag," "the story rushes and readers can't keep up," "the climax feels flat," or planning multi-chapter rhythm. The core baseline (alternate tempo; climactic impact = suppression time × release intensity) lives in SKILL.md; this is the full expansion.
 
+> Related guides: per-scene length and genre ratios are in [Scene Design](craft-scene-design.md); the emotional lever that makes readers "fret for the protagonist" before a climax is in [Immersion Design](craft-immersion.md).
+
 ## Alternating tempo
 
 Whatever the genre, sustained intensity only numbs the reader. Pacing must breathe.

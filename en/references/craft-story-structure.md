@@ -2,6 +2,8 @@
 
 Read only when planning outlines, building the three-act structure, distributing climaxes, or diagnosing "the plot drifts," "the climax lands flat," or "the middle sags." The core baseline (plots are causal chains; cut chapter ends at peak conflict) lives in SKILL.md; this is the full expansion.
 
+> Related guides: for a flat climax, read [Pacing Control](craft-pacing.md) alongside this file; independent motivations for subplot characters are covered in [Character Building](craft-character.md).
+
 ## The core logic of the three-act structure
 
 The underlying formula is not "things happened" but **causal chains**. E.M. Forster's classic distinction: "The king died, and then the queen died" is a chronicle; "The king died, and then the queen died of grief" is a plot.

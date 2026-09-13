@@ -2,6 +2,8 @@
 
 Read only when writing or revising dialogue-heavy scenes, or diagnosing "dialogue reads like a Q&A machine," "information dumps," or "everyone sounds the same." The core baseline (resistance is the core; break the ping-pong rally) lives in SKILL.md; this is the full expansion.
 
+> Related guide: the deeper principle behind "reveal character" (goal two) is in [Character Building](craft-character.md).
+
 ## Six goals of dialogue
 
 Good dialogue achieves at least one:

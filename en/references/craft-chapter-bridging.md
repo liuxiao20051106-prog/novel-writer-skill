@@ -2,6 +2,8 @@
 
 Read only when writing chapter openings and endings, handling POV switches or multi-thread line changes, or diagnosing "chapters don't connect," "readers re-adapt at every chapter." The core baseline (openings follow endings naturally; line changes get clear POV markers and time anchors) lives in SKILL.md; this is the full expansion. The four bridging patterns (emotion / action / suspense / time-space) with examples are in SKILL.md, Stage 2, "Chapter openings."
 
+> Related guides: the POV selection principle is in [Immersion Design](craft-immersion.md); the pacing stakes behind the "emotional cliff" are in [Pacing Control](craft-pacing.md).
+
 Readers should "finish one chapter after another without noticing" — not re-adapt at every chapter opening.
 
 ## Common bridging failures

@@ -2,6 +2,8 @@
 
 Read only when setting the prose voice, polishing language, or diagnosing "style drift," "ornament stacking," or "emotion-label writing." The core baseline (concrete > abstract, verbs > adjectives, body before brain, white space) lives in SKILL.md; this is the full expansion.
 
+> Related guide: applying "body before brain" and "white space" inside immersion scenes is in [Immersion Design](craft-immersion.md).
+
 ## Setting the style (decide before writing, lock in the first three chapters)
 
 | Style | Diction | Sentence strategy |

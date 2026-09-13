@@ -2,6 +2,8 @@
 
 Read only when building or revising specific scenes, tuning scene length and rhythm, or diagnosing "scenes read like a log," "things happen but there is no tension." The core baseline (a scene is the minimal unit of conflict; fix or cut conflict-free scenes) lives in SKILL.md; this is the full expansion.
 
+> Related guides: chapter-level tempo scheduling is in [Pacing Control](craft-pacing.md); the sensory and spatial anchoring used in "Entry" is in [Immersion Design](craft-immersion.md).
+
 ## What a scene is
 
 A scene is not "a place where things happen." A scene is **the minimal unit of conflict**. If a scene has no conflict (external / interpersonal / internal), either fix it or cut it.
