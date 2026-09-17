@@ -2,6 +2,8 @@
 
 Use this guide for novels, serials, and series where facts, timelines, character knowledge, or revisions must remain stable.
 
+> This file covers *what to record*; for *what to feed each generation and how much*, see [Context Budget](context-budget.md).
+
 ## Maintain a source of truth
 
 Use [the project overview](../templates/novel-project.md) for durable canon and [the continuity ledger](../templates/continuity-ledger.md) for current state. Record only confirmed facts as canon. Keep proposals and unresolved questions separate.
