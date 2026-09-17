@@ -135,7 +135,9 @@ def check_structure(root: Path, issues: list) -> None:
     for directory in ('references', 'templates', 'scripts'):
         path = root / directory
         if path.is_dir():
-            nested = [p for p in path.iterdir() if p.is_dir()]
+            # __pycache__ 是跑测试/导入脚本的产物，不算结构问题
+            nested = [p for p in path.iterdir()
+                      if p.is_dir() and p.name != '__pycache__' and not p.name.startswith('.')]
             if nested:
                 issues.append(('warning', f'{directory}/ 下存在子目录，引用应保持一级深度：'
                                           f'{[p.name for p in nested]}'))
