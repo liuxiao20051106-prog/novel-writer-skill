@@ -2,7 +2,9 @@
 
 Use this guide after a scene, chapter, arc, or manuscript exists. Review from high-impact issues to surface polish so prose work is not wasted on material that will be cut.
 
-> When review finds a concrete problem, load the matching craft guide per the SKILL.md "Craft Techniques" index: dragging → [Pacing Control](craft-pacing.md); falling out of the story → [Immersion Design](craft-immersion.md); weak dialogue → [Dialogue Writing](craft-dialogue.md); broken bridging → [Chapter Bridging](craft-chapter-bridging.md).
+> When review finds a concrete problem, load the matching craft guide per the SKILL.md baselines table: dragging → [Pacing Control](craft-pacing.md); falling out of the story → [Immersion Design](craft-immersion.md); weak dialogue → [Dialogue Writing](craft-dialogue.md); broken bridging → [Chapter Bridging](craft-chapter-bridging.md); machine voice → [Removing the AI Voice](craft-ai-tells.md).
+>
+> Quantified aid: run `python scripts/draft_diagnostics.py chapter.md` first for sentence/paragraph coefficient of variation, dialogue share, sensory density, and AI-tell density, then review layer by layer. For the round-based order, see [Revision Process](craft-revision.md).
 
 ## Review order
 

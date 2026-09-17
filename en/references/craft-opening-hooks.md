@@ -1,58 +1,82 @@
-# Opening Hooks (The Golden First Chapters)
+# Opening Hooks (the Golden Three Chapters)
 
-Read only when planning or revising a novel's opening, or diagnosing "the opening doesn't retain readers" / "the first three chapters drag." The core baseline (protagonist, conflict, and a question within the first 300 words; a hook at every chapter end) lives in SKILL.md; this is the full expansion.
+Load this when planning or revising an opening, or diagnosing "the beginning doesn't hold readers" or "the first three chapters are mistimed". The baseline (protagonist, conflict, and suspense within 300 words; a hook at every chapter end) lives in SKILL.md; this is the full expansion.
 
-> Related guides: the bridging side of chapter-end hooks is in [Chapter Bridging](craft-chapter-bridging.md); suppression and release before climaxes is in [Pacing Control](craft-pacing.md); long-line planting and payoff is in [Suspense & Foreshadowing](craft-suspense-foreshadowing.md).
+> Related: the bridging side of end hooks in [Chapter Bridging](craft-chapter-bridging.md); suppression and release before climaxes in [Pacing](craft-pacing.md); long-range suspense in [Suspense & Foreshadowing](craft-suspense-foreshadowing.md); serial metrics in [Web Serial Rhythm](craft-webnovel-rhythm.md); genre-specific openings in [Genre Playbooks](genre-playbooks.md).
 
-## The golden 300 words
+## I. Three things in the golden 300 words
 
-Web-fiction readers decide within seconds whether to keep reading. The first 300 words must deliver three things at once:
+Readers decide within seconds. The opening 300 words must deliver all three:
 
-1. **The protagonist on the page** — the first line carries their action or predicament. No scenery openings, no background briefings.
-2. **A present-tense crisis** — a concrete, immediate trouble, not "an approaching grand doom."
-3. **One open question** — a "why / what happens next" the reader carries forward.
+1. **The protagonist is present** — the first sentence carries their action or predicament; no scenery opening, no background lecture.
+2. **An immediate crisis** — a concrete, right-now problem, not "a grand crisis that is coming".
+3. **An open question** — a "why" or "what now".
 
-Put "an accident" in the first paragraph. Compare:
+- ✗ "My name is Zhang Ming, a junior in computer science at…" — a résumé opening.
+- ✓ "When the train stopped, an old man gripped my shoulder and said: 'The code you wrote will kill a hundred thousand people.'" — dropped straight into the center of the event.
 
-- ❌ "My name is Zhang Ming, a junior majoring in computer science..." — a résumé opening
-- ✅ "As the subway doors opened, an old man gripped my shoulder and said, 'Your code is going to kill a hundred thousand people.'" — drop the reader straight into the middle of events (in medias res)
+Keep setting light: for the first 500 words, stay on the protagonist and the immediate crisis; release worldbuilding gradually through plot, dialogue, and action.
 
-Keep world-building feather-light: release settings through plot, dialogue, and action as they become relevant. **For the first 500 words, focus only on the protagonist and the present crisis** — no information bombardment.
+## II. Two structural pieces of an opening
 
-## Task split for the first three chapters
+Two practices from the genre-film tradition that work equally well in fiction:
 
-The "golden three chapters" is about tasks, not word count:
+- **Opening image**: a snapshot of the "before" state (often mirrored by the ending) — one or two paragraphs.
+- **Theme stated**: within the first 5%, let someone say the thing the book will prove (the protagonist doesn't understand it yet; the ending does).
+
+## III. How the three chapters divide the work
 
 | Chapter | Job | Deliverable |
-|------|------|------|
-| **Chapter 1** | Establish persona, pose the predicament, give hope | Readers know who the protagonist is, how bad the situation is, and what to hope for; first hook at chapter end |
-| **Chapter 2** | Show competence, meet resistance, introduce allies | What makes the protagonist able to win + the first real obstacle + a key supporting character |
-| **Chapter 3** | Hard conflict, define the goal, leave a big hook | The core clash's first head-on collision, a clear long-term goal, a book-level question at the end |
+|---------|-----|-------------|
+| **One** | establish character, present the predicament, create anticipation | readers know who the protagonist is, how hard the situation is, and what to look forward to; first hook at chapter end |
+| **Two** | show capability, meet resistance, introduce key cast | demonstrate why the protagonist can win + the first real obstacle + a key supporting character |
+| **Three** | strong conflict, fix the goal, leave the big hook | the core conflict collides head-on for the first time; the long-term goal is explicit; a book-level question at the end |
 
-**Package the trump card with the crisis**: the protagonist's core advantage must connect directly to the first concrete trouble they face in chapter one — unlocked to solve that problem, not idled until chapter ten.
+- **Sell the golden finger with the package**: the core ability or advantage should attach directly to chapter one's first predicament — awaken it to solve that problem, not after tens of thousands of words of setup.
+- **Character contrast**: an ordinary A-side and an extraordinary B-side (ability or secret); the bigger the contrast, the stronger the hook.
+- **A mini-arc in chapter one**: give the first chapter one self-contained loop (small conflict → response → small result) to prove to the reader that "this book will keep being good".
 
-**Persona via contrast**: side A is an ordinary identity, side B is an extraordinary ability or secret — the bigger the gap, the stronger the memory hook.
+## IV. The opening's core promise
 
-## The mini arc inside chapter one
+An opening also signs a **genre contract**: readers learn what this book will give them (leveling up and face-slapping? puzzle-solving? sweet romance?). The promise must be:
 
-Give chapter one a self-contained micro arc: small conflict → response → small result. It is instant evidence that "this story keeps delivering," while naturally trailing a thread toward the main plot. A chapter of pure setup with no mini closure gives readers no reason to trust the payoff later.
+1. **Clear** — within the first three chapters, state the direction of the payoff.
+2. **Delivered** — kept afterward at sufficient density.
+3. **Not switched lightly** — changing lanes mid-book loses the existing readers.
 
-## Four types of chapter-end hooks
+## V. Four types of chapter-end hook
 
-Never finish a chapter's sentence. Hooks must follow the plot naturally, not feel engineered:
-
-- **Suspense**: "He opened the file bag. Its contents were nothing like what he expected."
+- **Suspense**: "He opened the file folder; what was inside was nothing like he expected."
 - **Conflict**: "He'd barely finished speaking when the doorway filled with people."
-- **Emotion**: "He stood there, suddenly feeling a weight in his chest."
-- **Choice**: "Save her, and he exposes himself. His hand hovered over the button."
+- **Emotional**: "He stood there and suddenly felt something block his chest."
+- **Decision**: "Save her and he exposes himself. His hand stopped on the button."
 
-For grounded fiction, hooks need not be dramatic — a new discovery or a new situation is enough. "Cutting the climax" also works: stop at the most critical beat, land it at the next chapter's opening (bridging patterns in Chapter Bridging).
+Advanced: interruption (the truth is cut off halfway), countdown (almost no time left at chapter end), against expectation (everyone assumes he'll back down).
 
-## Six opening killers
+Realistic work doesn't need exaggeration — a new discovery or a new situation is enough. **The hook must follow the plot naturally, never feel engineered.**
 
-1. ❌ **Info bombardment**: world rules, power systems, and family trees before protagonist and conflict
-2. ❌ **Slice-of-life opening**: scenery, commutes, meals — no visible conflict in the golden 300 words
-3. ❌ **Résumé personas**: listing age, traits, talents instead of showing character through one small incident
-4. ❌ **Passive protagonist**: waiting for the system or a villain's push — the opening must state the protagonist's core desire (money, revenge, survival...) and show them acting on it
-5. ❌ **Payoff too late**: every chapter needs at least one small win (a reversal, a face-slap, a small victory); long stretches without positive feedback = churn
-6. ❌ **Copying the shell**: borrowing a trendy genre's surface while dropping its core pleasure (e.g., rule-based horror without the puzzle-solving thrill)
+## VI. Title and blurb (the second entry point on serial platforms)
+
+- Three effective title logics: protagonist's predicament + golden finger + comeback result / an anomalous scene that creates a question / a number that sharpens the conflict.
+- One-line blurb: predicament + golden finger + comeback result, enough to hook the target reader.
+- Fill the tags: genre, identity, payoff type, elements.
+
+## VII. Against-expectation openings
+
+When everyone expects the protagonist to compromise, back down, or lose, he does the exact opposite — instantly escaping the cliché. Precondition: the reversal must **fit the character better**, or it's just contrarianism.
+
+## VIII. Six opening minefields
+
+1. ✗ **Information barrage**: world, system, and family tree before protagonist and conflict
+2. ✗ **Log opening**: scenery, commute, a meal — no conflict visible in 300 words
+3. ✗ **Résumé character**: listing age, personality, talents instead of showing one small thing
+4. ✗ **Passive protagonist**: only acts when the system or someone else forces it
+5. ✗ **Payoff too late**: at least one small payoff per chapter; long stretches without positive feedback lose readers
+6. ✗ **Copying the shell**: borrowing a hot genre's scene frame while dropping the genre's underlying pleasure
+
+## IX. Measurable checks
+
+- Do the first 300 words contain the protagonist's action / a concrete crisis / an unanswered question?
+- Does each of the first three chapters end with a hook?
+- Are there ≤3 proper nouns in the first 500 words?
+- After launch, watch the data: **bounce rate in the first 300 words**, **completion rate**, **follow rate** — fix the segment where the drop happens (see the web-serial guide).

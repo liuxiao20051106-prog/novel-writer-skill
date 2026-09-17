@@ -1,0 +1,34 @@
+name: validate
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  skill-checks:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run script unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate skill structure (zh/en mirror, links, frontmatter)
+        run: python scripts/validate_skill.py --warnings-as-errors
+
+      - name: Smoke test draft diagnostics
+        run: |
+          printf '# 第一章 测试\n\n他握紧了刀。他又松开了刀。最后他把刀放下。\n\n“你来了。”她说。\n' > /tmp/ch1.md
+          python scripts/draft_diagnostics.py /tmp/ch1.md --top 5

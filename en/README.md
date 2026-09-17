@@ -42,9 +42,12 @@ This skill encodes a professional author's full workflow into the AI's system in
 | 👁️ **Immersion first** | Five-layer immersion system: POV lock + sensory immersion + emotional resonance + situation design + breakers to avoid |
 | 🌍 **Platform-agnostic** | One methodology for 10+ platforms, each with its own setup guide |
 | 🧭 **Genre & serialization** | Covers fantasy, sci-fi, romance, mystery and more; reader positioning, contract and rights checklists |
+| 🧹 **De-AI the voice** | Ten machine-voice signals with fixes, a high-frequency word swap list, and a negative-prompt template to sweep before submitting |
+| 🧪 **Quantified draft diagnostics** | `scripts/draft_diagnostics.py` reports sentence/paragraph coefficient of variation, dialogue share, sensory density, AI-tell density, and repeated phrasing — data to localize suspect passages |
 | 🤖 **Controllable AI workflow** | Explicit states, human approval, idempotent retries, and run logs for cross-session and batch work |
 | ✅ **Quality gates** | Hard gates, evidence-based scoring, and behavioral tests for continuity, originality, facts, and publishing risk |
-| 📋 **Project templates** | 9 bilingual templates for characters, foreshadowing, sources, market assumptions, automation runs, and release acceptance |
+| 📋 **Project templates** | 11 bilingual templates for characters, foreshadowing, style anchors, sources, market assumptions, automation runs, and release acceptance |
+| 🔒 **Structure self-check** | `scripts/validate_skill.py` verifies frontmatter, link validity, zh/en mirror parity, and script syntax — run it after any edit |
 
 ## Who is it for?
 
@@ -74,22 +77,50 @@ The entry file is [SKILL.md](SKILL.md) (English) or [../SKILL.md](../SKILL.md) (
 
 ---
 
-## ✨ The ten craft techniques
+## ✨ Fifteen craft deep dives + long-form engineering
 
 Each technique keeps its non-negotiable baseline in SKILL.md; the full methodology loads on demand:
 
 | Technique | Core content | Deep guide |
 |------|---------|---------|
-| **Story structure** | Three-act causal chains · climax distribution · subplots | [Open](references/craft-story-structure.md) |
+| **Story structure** | Causal chains · beat–scene–sequence–act–story · fifteen beats · chapter/volume mapping | [Open](references/craft-story-structure.md) |
 | **Opening hooks** | The golden 300 words · first-three-chapter task split · four hook types · opening killers | [Open](references/craft-opening-hooks.md) |
-| **Character building** | Five-layer design · want vs. need framework | [Open](references/craft-character.md) |
-| **Scene design** | Scene = conflict · length and rhythm · genre pace ratios | [Open](references/craft-scene-design.md) |
-| **Dialogue** | Six goals · resistance as the core · break the ping-pong rally | [Open](references/craft-dialogue.md) |
-| **Pacing** | Alternate tempo · accelerate/decelerate · suppression-release | [Open](references/craft-pacing.md) |
+| **Character building** | Five-layer design · want vs. need · three arc types · speech fingerprints | [Open](references/craft-character.md) |
+| **Emotion & subtext** | Three emotional layers · the three-column method · four micro-tension tools · subtext pairs | [Open](references/craft-emotion-and-subtext.md) |
+| **POV & distance** | Four fixed decisions · four distance gears · viewpoint violation · multi-thread switching | [Open](references/craft-pov-and-distance.md) |
+| **Scene design** | Scene & sequel · four-part structure · genre pace ratios | [Open](references/craft-scene-design.md) |
+| **Dialogue** | Six goals · resistance as the core · break the ping-pong rally · three AI diseases | [Open](references/craft-dialogue.md) |
+| **Pacing** | Alternate tempo · accelerate/decelerate · suppression-release · cool-down chapters | [Open](references/craft-pacing.md) |
 | **Suspense & foreshadowing** | Three information asymmetries · three suspense layers · four planting patterns and the three-stage payoff · fair play | [Open](references/craft-suspense-foreshadowing.md) |
-| **Prose & style** | Five style registers · body before brain · white space | [Open](references/craft-prose-style.md) |
+| **Prose & style** | Five style registers · filter-word removal · verbs first · density control · white space | [Open](references/craft-prose-style.md) |
 | **Immersion** | Five-layer system (POV lock + sensory + resonance + situation + breakers) | [Open](references/craft-immersion.md) |
-| **Chapter bridging** | Four bridging patterns · multi-thread continuity | [Open](references/craft-chapter-bridging.md) |
+| **Chapter bridging** | Four bridging patterns · time jumps · multi-thread continuity | [Open](references/craft-chapter-bridging.md) |
+| **Web serial rhythm** | Three payoff tiers · anticipation management · four cliffhanger types · poison points | [Open](references/craft-webnovel-rhythm.md) |
+| **Revision process** | Four-round revision · reverse outline · cooling and read-through · when to stop | [Open](references/craft-revision.md) |
+| **Removing the AI voice** | Three roots of the machine voice · ten signals · four fiction tells · swap list | [Open](references/craft-ai-tells.md) |
+| **Long-form continuity** | Context budget · layered summaries · two-step generation · per-volume audit · handoff | [Open](references/context-budget.md) |
+
+---
+
+## 🧪 Bundled scripts
+
+Two zero-dependency Python scripts (standard library only), plain text or JSON output:
+
+```bash
+# Draft diagnostics: word count, sentence/paragraph CV, dialogue share, sensory density,
+# AI-tell words, repeated phrases, dash density
+python scripts/draft_diagnostics.py chapter.md
+python scripts/draft_diagnostics.py chapter.md --top 15 --json
+
+# Skill self-check: frontmatter, link validity, zh/en mirror parity, script syntax
+python scripts/validate_skill.py
+python scripts/validate_skill.py --warnings-as-errors
+
+# Unit tests for the scripts (23 cases)
+python -m unittest discover -s tests
+```
+
+Diagnostics are **leads, not verdicts** — read the passage before changing it. GitHub Actions runs the tests and the self-check on every push and PR.
 
 ---
 
@@ -103,19 +134,26 @@ novel-writer-skill/
 ├── aily-cli-skill.json            # Claude Code metadata
 ├── LICENSE                        # MIT license
 │
+├── scripts/                       # Zero-dependency Python scripts
+│   ├── draft_diagnostics.py       # Draft diagnostics
+│   └── validate_skill.py          # Structure & zh/en mirror check
+├── tests/                         # Script unit tests (23 cases)
+├── .github/workflows/validate.yml # CI: tests + self-check on push/PR
+│
 ├── platforms/                     # Per-platform setup guides
 │
 ├── en/                            # Full English version
 │   ├── README.md                  # English project overview (this file)
 │   ├── SKILL.md                   # English core skill
-│   ├── references/                # 21 English specialist guides (incl. 10 craft deep dives)
-│   └── templates/                 # 9 English project templates
+│   ├── references/                # 27 English specialist guides (incl. 15 craft deep dives)
+│   └── templates/                 # 11 English project templates
 │
-├── references/                    # On-demand specialist guides (Chinese)
-│   ├── craft-*.md                 # 10 craft deep dives
+├── references/                    # On-demand specialist guides (Chinese, 27 files)
+│   ├── craft-*.md                 # 15 craft deep dives
+│   ├── context-budget.md          # Context budget & long-form memory packing
 │   └── *.md                       # 11 workflow/compliance guides
 │
-└── templates/                     # Copy-ready project templates (Chinese)
+└── templates/                     # Copy-ready project templates (Chinese, 11 files)
 ```
 
 ---
@@ -152,7 +190,9 @@ git clone https://github.com/liuxiao20051106-prog/novel-writer-skill.git
 
 ## 📊 Token usage
 
-The core methodology and each technique's non-negotiable baseline stay in `SKILL.md`; the full craft expansions (`references/craft-*.md`) plus genre, long-form, commercialization, automation, fact-checking, compliance, and QA guides live in `references/` and load on demand, so context stays lean. `en/` mirrors the same scope in English.
+The core methodology and all 15 techniques' non-negotiable baselines stay in `SKILL.md` (193 body lines); the full craft expansions (`references/craft-*.md`) plus genre, long-form, commercialization, automation, fact-checking, compliance, and QA guides live in `references/` and load on demand, so context stays lean. `en/` mirrors the same scope in English.
+
+For long works, pack context by the [budget](references/context-budget.md): system instructions 15-25%, fact layer 20-30%, prior text 20-30%, this chapter's brief 10-15%, and keep ≥20% free for generation.
 
 ---
 

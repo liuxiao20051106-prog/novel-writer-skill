@@ -2,7 +2,9 @@
 
 仅在审稿、修改、润色、全书复盘或交付前质量检查中读取。先诊断，再按用户授权范围修改；不要把个人口味当成硬规则。
 
-> 审出具体问题的修法按 SKILL.md「技法深度篇」加载对应指南：节奏拖 → [节奏控制](craft-pacing.md)；出戏 → [代入感设计](craft-immersion.md)；对话软 → [对话写作](craft-dialogue.md)；衔接断 → [章节衔接](craft-chapter-bridging.md)。
+> 审出具体问题的修法按 SKILL.md「技法底线」表加载对应指南：节奏拖 → [节奏控制](craft-pacing.md)；出戏 → [代入感设计](craft-immersion.md)；对话软 → [对话写作](craft-dialogue.md)；衔接断 → [章节衔接](craft-chapter-bridging.md)；机器腔 → [去 AI 味](craft-ai-tells.md)。
+>
+> 量化辅助：先跑 `python scripts/draft_diagnostics.py 章节.md` 拿句长/段落变异系数、对话占比、感官密度与 AI 腔密度，再按本文件逐层审；分轮修订顺序见[修订工程](craft-revision.md)。
 
 ## 结构审校
 
