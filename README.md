@@ -42,9 +42,12 @@
 | 👁️ **代入感优先** | 五层代入体系：视角锁定 + 感官沉浸 + 情感共振 + 处境设计 + 常见错误规避，不是嘴上说「要有代入感」而是每一步都有检查点 |
 | 🌍 **全平台通用** | 一套方法论，适配 Claude Code / ChatGPT / Cursor / Copilot / Gemini / DeepSeek / Kimi / 豆包 / Ollama 等 10+ 平台，每个平台都有具体配置指南 |
 | 🧭 **题材与连载策略** | 覆盖玄幻、科幻、言情、悬疑等主要题材，并提供读者定位、平台核对、合同与权利检查框架 |
+| 🧹 **去 AI 味** | 十类机器腔信号 + 中文高频词替换表 + 负面指令模板，写完直接扫一遍再交稿 |
+| 🧪 **草稿量化体检** | `scripts/draft_diagnostics.py` 给出句长/段落变异系数、对话占比、感官密度、AI 腔密度、重复片段——用数据定位可疑段落 |
 | 🤖 **可控 AI 工作流** | 用明确状态、人工审批、幂等重试和运行日志管理跨会话、批量章节与多人协作 |
 | ✅ **质量评测** | 用硬性门禁、证据式评分和行为测试检查连续性、原创性、事实与发布风险 |
-| 📋 **项目追踪模板** | 9 套中英文模板追踪角色、伏笔、来源、市场假设、自动化运行和发布验收 |
+| 📋 **项目追踪模板** | 11 套中英文模板追踪角色、伏笔、风格锚、来源、市场假设、自动化运行和发布验收 |
+| 🔒 **结构自检** | `scripts/validate_skill.py` 校验 frontmatter、链接有效性、中英镜像一致性与脚本语法，改动后跑一次就知道有没有改坏 |
 
 ## 适合谁用？
 
@@ -88,22 +91,49 @@
 | **章节写作** | 写前检查（衔接上一章）→ 四段式单章结构 → 场景设计 → 对话写作 → 章首衔接 & 章尾勾连 → 写后自查 |
 | **修改润色** | 宏观编辑（结构/弧线/跨章通读）→ 微观编辑（语言/句式/对话）→ 细节打磨（代入感审查） |
 
-### 十大技法深度
+### 十五项技法深度 + 长篇工程
 
 每项技法的「必守底线」常驻 SKILL.md，完整方法论按需加载：
 
 | 技法 | 核心内容 | 深度指南 |
 |------|---------|---------|
-| **故事结构** | 三幕因果链 · 高潮排布规律 · 次要情节设计 | [打开](references/craft-story-structure.md) |
+| **故事结构** | 三幕因果链 · 节拍—场景—序列—幕—故事五级 · 十五节拍表 · 网文章/卷映射 | [打开](references/craft-story-structure.md) |
 | **开篇钩子** | 黄金 300 字 · 黄金三章任务分配 · 四种章末钩子 · 开篇雷区 | [打开](references/craft-opening-hooks.md) |
-| **角色塑造** | 五层设计法（原型→外在→创伤→矛盾→弧线）·「想要 vs 需要」框架 | [打开](references/craft-character.md) |
-| **场景设计** | 场景即冲突 · 长度节奏控制 · 体裁配比（爽文 3:1 / 言情 2:2 / 悬疑 1:3） | [打开](references/craft-scene-design.md) |
-| **对话写作** | 六大目标 ·「阻力」核心原理 · 打破乒乓球问答 | [打开](references/craft-dialogue.md) |
-| **节奏控制** | 快慢交替机制 · 加速/减速手段 · 高潮「压制-释放」 | [打开](references/craft-pacing.md) |
+| **角色塑造** | 五层设计法（原型→外在→创伤→矛盾→弧线）·「想要 vs 需要」· 三种弧线 · 语言指纹 | [打开](references/craft-character.md) |
+| **情绪与潜台词** | 情绪三层（标签/身体/真相）· 三分栏写法 · 微观张力四手法 · 潜台词对照表 | [打开](references/craft-emotion-and-subtext.md) |
+| **视角与叙述距离** | 人称/POV/时态四决策 · 叙述距离四档 · 视角越界与多线换线 | [打开](references/craft-pov-and-distance.md) |
+| **场景设计** | 场景—续幕模型 · 四步结构 · 体裁配比（爽文 3:1 / 言情 2:2 / 悬疑 1:3） | [打开](references/craft-scene-design.md) |
+| **对话写作** | 六大目标 ·「阻力」核心原理 · 打破乒乓球问答 · AI 三种典型病 | [打开](references/craft-dialogue.md) |
+| **节奏控制** | 快慢交替机制 · 加速/减速手段 · 高潮「压制-释放」· 冷却章 | [打开](references/craft-pacing.md) |
 | **悬念伏笔** | 信息差三种用法 · 悬念三层次 · 伏笔四模式与三段式回收 · 公平性原则 | [打开](references/craft-suspense-foreshadowing.md) |
-| **文笔风格** | 五种风格定调 · 身体先于大脑 · 留白技巧 | [打开](references/craft-prose-style.md) |
+| **文笔风格** | 五种风格定调 · 过滤词清除 · 动词优先 · 密度与句式控制 · 留白 | [打开](references/craft-prose-style.md) |
 | **代入感** | 五层体系（视角锁定 + 感官沉浸 + 情感共振 + 处境设计 + 错误规避） | [打开](references/craft-immersion.md) |
-| **章节衔接** | 四种桥接方式（情绪/动作/悬念/时空）· 多线叙事连续性 | [打开](references/craft-chapter-bridging.md) |
+| **章节衔接** | 四种桥接方式（情绪/动作/悬念/时空）· 时间跳跃 · 多线叙事连续性 | [打开](references/craft-chapter-bridging.md) |
+| **网文节奏与追读** | 爽点三级 · 期待感管理 · 断章四型 · 三种章模板 · 毒点雷区 · 数据自查 | [打开](references/craft-webnovel-rhythm.md) |
+| **修订工程** | 四轮修订法 · 反向提纲 · 冷却与通读 · 用 AI 修订的边界 · 停止信号 | [打开](references/craft-revision.md) |
+| **去 AI 味** | 机器腔三根源 · 十类信号改法 · 叙事腔四类 · 中文高频词替换表 | [打开](references/craft-ai-tells.md) |
+| **长篇一致性** | 上下文预算分配 · 分层摘要 · 两步生成法 · 每卷设定审计 · 会话交接 | [打开](references/context-budget.md) |
+
+---
+
+## 🧪 自带脚本
+
+两个零依赖 Python 脚本（仅用标准库），输出纯文本或 JSON：
+
+```bash
+# 草稿量化体检：字数、句长/段落变异系数、对话占比、感官密度、AI 高频腔、重复片段、破折号密度
+python scripts/draft_diagnostics.py 章节.md
+python scripts/draft_diagnostics.py 章节.md --top 15 --json
+
+# Skill 结构自检：frontmatter、链接有效性、中英镜像一致性、脚本语法
+python scripts/validate_skill.py
+python scripts/validate_skill.py --warnings-as-errors
+
+# 跑脚本自身的单元测试（23 项）
+python -m unittest discover -s tests
+```
+
+体检脚本给的是**线索不是判决**——指标超阈值先看上下文，别机械照改。`push`/`PR` 时 GitHub Actions 会自动跑测试与自检。
 
 ---
 
@@ -116,6 +146,12 @@ novel-writer-skill/
 ├── SKILL.md                       # 核心 skill 文件（中文）
 ├── aily-cli-skill.json            # Claude Code 元数据
 ├── LICENSE                        # MIT 许可
+│
+├── scripts/                       # 零依赖 Python 脚本
+│   ├── draft_diagnostics.py       # 草稿量化体检
+│   └── validate_skill.py          # 结构与中英镜像自检
+├── tests/                         # 脚本单元测试（23 项）
+├── .github/workflows/validate.yml # push/PR 自动跑测试 + 自检
 │
 ├── platforms/                     # 各平台配置指南
 │   ├── claude-code.md             # Claude Code 安装说明
@@ -130,20 +166,13 @@ novel-writer-skill/
 ├── en/                            # 完整英文版
 │   ├── README.md                  # English project overview
 │   ├── SKILL.md                   # English core skill
-│   ├── references/                # 21 份 English specialist guides（含 10 份技法深度）
-│   └── templates/                 # 9 套 English project templates
+│   ├── references/                # 27 份 English specialist guides（含 15 份技法深度）
+│   └── templates/                 # 11 套 English project templates
 │
-├── references/                    # 按需加载的专项指南
-│   ├── craft-story-structure.md   # 技法深度：故事结构
-│   ├── craft-opening-hooks.md     # 技法深度：开篇钩子（黄金三章）
-│   ├── craft-character.md         # 技法深度：角色塑造
-│   ├── craft-scene-design.md      # 技法深度：场景设计
-│   ├── craft-dialogue.md          # 技法深度：对话写作
-│   ├── craft-pacing.md            # 技法深度：节奏控制
-│   ├── craft-suspense-foreshadowing.md # 技法深度：悬念与伏笔
-│   ├── craft-prose-style.md       # 技法深度：文笔与风格
-│   ├── craft-immersion.md         # 技法深度：代入感设计
-│   ├── craft-chapter-bridging.md  # 技法深度：章节衔接
+├── references/                    # 按需加载的专项指南（27 份）
+│   ├── craft-*.md                 # 15 份技法深度（结构/开篇/角色/情绪/视角/场景/
+│   │                              #   对话/节奏/悬念/文笔/代入/衔接/网文/修订/去AI味）
+│   ├── context-budget.md          # 上下文预算与长篇记忆打包
 │   ├── ai-collaboration.md        # AI 分工、提示方式与原创性
 │   ├── project-continuity.md      # 长篇连续性与版本管理
 │   ├── quality-review.md          # 分层审校与质量检查
@@ -156,10 +185,12 @@ novel-writer-skill/
 │   ├── automation-workflow.md     # AI 自动化工作流
 │   └── evaluation-and-test-cases.md # 质量评分与行为测试
 │
-└── templates/                     # 可直接复制的项目模板
+└── templates/                     # 可直接复制的项目模板（11 套）
     ├── novel-project.md           # 小说项目总览
     ├── chapter-brief.md           # 章节任务卡
     ├── continuity-ledger.md       # 连续性台账
+    ├── style-anchor.md            # 风格锚（防文风漂移）
+    ├── reverse-outline.md         # 反向提纲（修订地图）
     ├── source-log.md              # 来源记录
     ├── release-checklist.md       # 发布终检
     ├── series-plan.md             # 系列与长篇规划
@@ -210,7 +241,9 @@ For the English version of the complete skill instructions, see [en/SKILL.md](en
 
 ## 📊 Token 用量
 
-核心方法与八大技法的「必守底线」保留在 `SKILL.md`；八大技法的完整展开（`references/craft-*.md`）与题材、长篇管理、商业化、自动化、事实核查、合规、质量测试等专项内容位于 `references/`，按任务需要加载，避免一次占用过多上下文。`en/` 提供同等范围的英文入口、指南和模板。
+核心方法与 15 项技法的「必守底线」保留在 `SKILL.md`（正文 193 行）；技法完整展开（`references/craft-*.md`）与题材、长篇管理、商业化、自动化、事实核查、合规、质量测试等专项内容位于 `references/`，按任务需要加载，避免一次占用过多上下文。`en/` 提供同等范围的英文入口、指南和模板。
+
+长篇写作时按 [上下文预算](references/context-budget.md) 打包：系统指令 15-25%、事实层 20-30%、前文 20-30%、本章任务卡 10-15%，至少留 20% 给生成。
 
 ---
 

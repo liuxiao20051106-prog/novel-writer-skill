@@ -1,32 +1,66 @@
 # Scene Design
 
-Read only when building or revising specific scenes, tuning scene length and rhythm, or diagnosing "scenes read like a log," "things happen but there is no tension." The core baseline (a scene is the minimal unit of conflict; fix or cut conflict-free scenes) lives in SKILL.md; this is the full expansion.
+Load this when building or revising a specific scene, tuning scene length and pace, or diagnosing "the scene is just a log of events" or "things happen but there's no tension". The baseline (a scene is conflict; fix or cut conflict-free scenes) lives in SKILL.md; this is the full expansion.
 
-> Related guides: chapter-level tempo scheduling is in [Pacing Control](craft-pacing.md); the sensory and spatial anchoring used in "Entry" is in [Immersion Design](craft-immersion.md).
+> Related: [Pacing](craft-pacing.md); sensory and spatial anchoring in [Immersion](craft-immersion.md); POV and viewpoint violation in [POV & Distance](craft-pov-and-distance.md); the mechanics of emotion in [Emotion & Subtext](craft-emotion-and-subtext.md).
 
-## What a scene is
+Lineage (paraphrased): Jack Bickham's scene-and-sequel model; McKee's "a scene must turn and shift a value".
 
-A scene is not "a place where things happen." A scene is **the minimal unit of conflict**. If a scene has no conflict (external / interpersonal / internal), either fix it or cut it.
+## I. What a scene is
 
-## Scene structure
+A scene is not "a place where things happen"; it is **the smallest unit in which conflict unfolds**: a character wants something, meets resistance, and the situation changes (however slightly). No change means no scene.
 
-Every scene should have:
-- **Entry**: Quickly establish space and POV with sensory detail
-- **Conflict unfolds**: What does the character want? What's in the way?
-- **Turn**: By scene's end, the situation has changed (even slightly) — closer to or further from the goal? New information? A changed view of someone?
-- **Exit**: End the scene on "consequences," not on "the task is done." The reader should want to know what happens next.
+## II. Scene and Sequel (the most practical metronome while drafting)
 
-## Scene length and pacing
+**Scene (action unit)**
+1. **Goal**: what the POV character wants — concrete, immediate, pass/fail verifiable.
+2. **Conflict**: who or what blocks it (external resistance, another's opposing goal, inner unwillingness).
+3. **Disaster / turn**: they do **not** get the goal, or they get it at an unforeseen cost — forcing the next step.
 
-- Short scenes (a few hundred words): fast progress, tension — action, pursuit, sudden conflict
-- Long scenes (thousands of words): immersive development — emotional set pieces, complex dialogue, pivotal decisions
-- Key principle: **deliberate variation** — never let all scenes run the same length. After a tense scene, give a slightly longer breathing scene, and vice versa
+**Sequel (reaction unit)**
+4. **Reaction**: emotion first (body response → emotion → thought, in that order).
+5. **Dilemma**: the options in front of them, each with a cost.
+6. **Decision**: they choose, which sets the goal of the next scene.
 
-## Pace ratios by genre
+Rhythm comes from the **ratio**: run consecutive scenes through a climax stretch (pressure → eruption), then give a sequel so the reader can breathe. A common AI fault is scene after scene with no sequel — it reads as relentless rush.
 
-| Genre | Recommended ratio (fast:slow) | Notes |
-|------|------|------|
-| **Power fantasy / hot-blooded** | 3:1 | Dense conflict delivers on the promise; occasional breathers |
-| **Romance** | 2:2 | Emotional push-and-pull needs room; alternation builds tension |
-| **Mystery** | 1:3 | Slow pace builds atmosphere; fast pace reserved for key reveals |
-| **Drama / literary** | 1:1 | Balanced tension and release |
+## III. The four-part scene
+
+- **Enter**: one or two lines of spatial anchoring plus clear POV and present time.
+- **Conflict unfolds**: what the character wants → what resists → alternating action/reaction beats.
+- **Turn**: the situation changes — closer to or further from the goal? What is now known? Whose view has shifted?
+- **Exit**: stop on the *consequence*, not on "task complete", so the reader wants what comes next.
+
+**Two old rules**: enter in the middle of the action (if you can cut the first two paragraphs, cut them), and exit the moment the turn completes (if you can cut the last two, cut them).
+
+## IV. Five questions every scene must answer
+
+1. Whose POV, and what do they want right now?
+2. Where does resistance come from (person / environment / within)?
+3. What value changed by the end (+ → − or − → +)?
+4. What new information or new problem does it leave behind?
+5. If this scene were deleted, what would the story lose? (No answer means delete it.)
+
+## V. Scene length and pace
+
+- **Short scenes (a few hundred words)**: accelerate — good for action, chases, sudden conflict.
+- **Long scenes (a few thousand words)**: decelerate — good for emotional set pieces, complex negotiation, key decisions.
+- **Vary deliberately**: follow a tense scene with a longer breather, and vice versa; paragraph length varies with it.
+
+| Genre | Fast:slow ratio | Notes |
+|-------|-----------------|-------|
+| Payoff-driven / hot-blooded | 3:1 | dense conflict, occasional breathers |
+| Romance | 2:2 | emotional push-pull needs room |
+| Mystery | 1:3 | slow atmosphere, fast reveals |
+| Drama / literary | 1:1 | balanced tension and release |
+
+## VI. Scene diagnosis
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| Reads like a log | no goal or no resistance | add both, or cut the scene |
+| Things happen but no tension | success comes too easily | add resistance, cost, time pressure |
+| Scene drags | enters too late / exits too late | cut head and tail; start at the conflict |
+| Relentless rush | no sequel (reaction–dilemma–decision) | add a reaction beat between scenes |
+| Reader pops out | POV or distance jump | see [POV & Distance](craft-pov-and-distance.md) |
+| Forgotten immediately | no value shift | state explicitly what went from + to − |
